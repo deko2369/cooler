@@ -13,6 +13,7 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     install_requires=[
+        'flask==0.11',
         'spidev==3.2'
     ],
     test_suite='tests',
