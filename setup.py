@@ -22,7 +22,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'cooler = cooler:main'
+            'cooler = cooler:main',
+            'cooler_web = cooler.web:main'
         ]
     },
     long_description='TBD',
